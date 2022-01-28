@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+            crossorigin="anonymous"
+    />
+</head>
+<body>
+	<!-- menu de navigation -->
+	<header>
+		<img src="images/logo1.png" class="logo" alt="logo">
+	    <nav>
+			<ul class="list">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="#product">Products</a></li>
+				<li><a href="#login">Login</a></li>
+		    </ul>
+		</nav>
+		<a href="SignInSignUp.html" class="contact"><button>Contact</button></a>
+    </header>
+    <!-- first section -->
+	<section id="section">
+		<div class="circle1"></div>
+		    <div class="content">
+		    	<div class="textBox">
+		    		<h2>It's much more<br>Than a<span> Perfume</span></h2>
+		    		<p>I defy anyone to design a hat, coat or dress that hasn't been done before...The only new frontier left in fashion is the finding of new materials. Paco Rabanne</p>
+		    		<a href="#product">Explore</a>
+		    	</div>
+		        <div class="imgBox">
+		    	<img src="images/1million.png" class="parfum">
+		        </div>
+		    </div> 
+		    <ul class="article">
+		        <li><img src="images/1million.png"       onclick="imgSlider('images/1million.png')"></li>
+		    	<li><img src="images/1milliongrey.png"   onclick="imgSlider('images/1milliongrey.png')"></li>
+		    	<li><img src="images/1millionbrown.png"  onclick="imgSlider('images/1millionbrown.png')"></li>
+		    </ul>
+		    <ul class="socialmedia">
+		    	<li><a href=""><img src="images/facebook.png"></a></li>
+		    	<li><a href=""><img src="images/instagram.png"></a></li>
+		    	<li><a href=""><img src="images/twitter.png"></a></li>
+		    </ul>
+	</section>
+	<br>
+    <h2 class="partitiontitle" id="product">OUR PRODUCTS</h2>
+	<!-- second section -->
+    <section>
+	<div class="container">
+		<div class="box">
+			<h2 class="name">1 MILLION </h2>
+			<a href="Prod1.html" class="buy">Learn more</a>
+			<div class="circle"></div>
+			<img src="images/1million.png"  class="product">
+		</div>
+		<div class="box">
+			<h2 class="name">1 MILLION PRIVE</h2>
+			<a href="#" class="buy">Learn more</a>
+			<div class="circle"></div>
+			<img src="images/1millionbrown.png"    class="product">
+		</div>
+		<div class="box">
+			<h2 class="name">1 MILLION LUCKY</h2>
+			<a href="#" class="buy">Learn more</a>
+			<div class="circle"></div>
+			<img src="images/1milliongrey.png"  class="product">
+		</div>
+	</div>
+    </section>
+    <!-- SIGN UP -->
+    <div class="main" id="sign-up">
+    	<br>
+    	<h2 class="partitiontitle" id="login">JOIN OUR COMMUNITY</h2>
+    	<br><br>
+    <div class="main__container">
+        <div class="main__content">
+            <h2>Sign Up Today</h2>
+            <p>See what makes us different <br><br><br><button class="main__btn"><a href="SignInSignUp.html">Sign Up</a></button>
+            </p>
+        </div>
+        <div class="main__img--container">
+            <div class="main__img--card" id="card-2">
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+	<footer>
+
+		<div class="footer">
+			<img src="images/logo1.png" alt="logo">
+			<p>Join us on social media for more news about our products </p>
+			<ul class="socials">
+				<li><img src="images/facebook.png"></li>
+				<li><img src="images/twitter.png"></li>
+				<li><img src="images/instagram.png"></li>
+			</ul>
+		</div>
+		<div class="footer_bottom">
+			<p>copyright &copy;2021 Mini-projet. designed by<span> HAMADA & OUSSAMA</span></p>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		function imgSlider(anything){
+	document.querySelector('.parfum').src = anything;
+    }
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
